@@ -35,9 +35,11 @@
 }
 .content-one {
     font-family:'UTM NeoSansIntelBold';
+    text-align: justify;
 }
 .content-two {
     font-family: 'UTM Neo Sans Intel';
+    text-align: justify;
 }
 .list-group p{
     font-family: 'UTM Copperplate';
@@ -71,13 +73,11 @@
         width: 100%;
     }
     .list-group {
-        margin: -10px;
+        margin: 0;
+        margin-top: -10px;
         max-width: 100%;
     }
     .text-content-center .btn-download {
         width: 70%;
-    }
-    .img-bottom img {
-        
     }
 }
