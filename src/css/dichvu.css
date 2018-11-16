@@ -1,0 +1,60 @@
+.text-content-center {
+    margin-top: 31px;
+    border-top: 1px solid #e5e3e3;
+    padding: auto 0;
+    border-bottom: 1px solid #e5e3e3;
+}
+.text-content-center p {
+    margin-top: 10px;
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.text-content-center .text-color {
+    color: #d71920;
+    font-weight: bold;
+    font-family: 'UTM Neo Sans Intel Bold';
+    font-size: 14px;
+}
+.text-content-center .btn-download {
+    background-color: #d71920;
+    color: white;
+    border-radius: 0;
+    margin-top: 3px;
+    width: 100%;
+    /* font-weight: 500; */
+    font-family: 'UTM NeoSansIntelBold';
+    font-size: 14px;
+    height: 33px;
+    position: relative;
+}   
+.icon-download {
+    position: absolute;
+    top: 7px;
+    left: 71%;
+}
+.content-one {
+    font-family:'UTM NeoSansIntelBold';
+}
+.content-two {
+    font-family: 'UTM Neo Sans Intel';
+}
+.list-group p{
+    font-family: 'UTM Copperplate';
+    color: black;
+    font-size: 18px;
+}
+.list-group-item {
+    font-family: 'UTM Avo';
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.img-bottom img{
+    width: 80%;
+    height: auto;
+    margin-left: 14%;
+}
+.list-content {
+    margin-bottom: 24px;
+}
