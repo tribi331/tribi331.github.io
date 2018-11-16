@@ -197,6 +197,7 @@
  @media only screen and (max-width: 475px) {
     .display-content {
         margin-top: 20px;
+        line-height: 20px;
     }
     .select-location {
         /* display: none; */
