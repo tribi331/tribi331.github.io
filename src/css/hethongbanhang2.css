@@ -187,11 +187,22 @@
 .row-compartment {
     margin-left: 10px;
 }
+@media only screen and (max-width: 1200px){
 
+}
+@media only screen and (max-width: 992px){
+    .map-img img {
+        max-width: 100%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .map-img img {
         max-width: 100%;
+    }
+    .display-content .nav-item p{
+        font-size: 14px;
+        line-height: 20px;
     }
 }
  @media only screen and (max-width: 475px) {
