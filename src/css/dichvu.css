@@ -70,4 +70,8 @@
         margin-top: 20px;
         width: 100%;
     }
+    .list-group {
+        margin: 0;
+        max-width: 100%;
+    }
 }
