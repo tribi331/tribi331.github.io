@@ -74,4 +74,10 @@
         margin: 0;
         max-width: 100%;
     }
+    .text-content-center .btn-download {
+        width: 70%;
+    }
+    .img-bottom img {
+        
+    }
 }
