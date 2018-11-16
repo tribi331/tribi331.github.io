@@ -71,7 +71,7 @@
         width: 100%;
     }
     .list-group {
-        margin: 0;
+        margin: -10px;
         max-width: 100%;
     }
     .text-content-center .btn-download {
