@@ -97,5 +97,6 @@
     .wrapper-all {
         background-color: #f3ebeb;
         border-radius: 10px;
+        margin: 10px 0;
     }
 }
