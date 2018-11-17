@@ -41,13 +41,13 @@
 .year-right::before {
     content: '';
     width: 15px;
-    top: 30%;
+    top: 3px;
     height: 15px;
     border-radius: 45px;
     background: red;
     position: absolute;
     left: -25px;
-}
+}   
 .icon-time-line {
     position: absolute;
 }
