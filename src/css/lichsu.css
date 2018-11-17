@@ -1,0 +1,95 @@
+.time-line {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+ .time-line::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #706c6c;
+    top: 15px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.mo-ta-noi-dung {
+    text-align: justify;
+    margin: 0 15px;
+}
+.year-left {
+    text-align: right;
+    color: red;
+    font-weight: bold;
+    position: relative;
+}
+.year-left::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;    
+    background: red;
+    top: 20%;
+    right: -20px;
+}
+.year-right {
+    color: red;
+    font-weight: bold;
+    position: relative;
+}
+.year-right::before {
+    content: '';
+    width: 15px;
+    top: 30%;
+    height: 15px;
+    border-radius: 45px;
+    background: red;
+    position: absolute;
+    left: -25px;
+}
+.icon-time-line {
+    position: absolute;
+}
+.content-inside {
+    position: relative;
+}
+.wrapper-all {
+    
+}
+
+.year-left p{
+    margin: 0 15px;
+}
+.year-right p {
+    margin: 0 15px;
+}
+.list-content{
+    background: transparent;
+    margin: 0;
+}
+.content-discription-all {
+    background-color: white;
+    padding: 0 15px;
+}
+.discription {
+    text-align: justify;
+    margin: 0 15px;
+}
+.list-content span {
+    margin-top: -30px;
+}
+.list-content .height-title {
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 475px) {
+    .time-line::before {
+        left: 0;
+    }
+    .year-left::before {
+        left: -11%;
+    }
+    .year-left p{
+        width: 0%;
+    }
+}
