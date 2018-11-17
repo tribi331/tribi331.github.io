@@ -94,4 +94,8 @@
     .year-left p{
         width: 0%;
     }
+    .wrapper-all {
+        background-color: #f3ebeb;
+        border-radius: 10px;
+    }
 }
