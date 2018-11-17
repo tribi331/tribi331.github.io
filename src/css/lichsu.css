@@ -85,6 +85,17 @@
     margin-bottom: 30px;
 }
 @media only screen and (max-width: 475px) {
+    .year-left::before {
+        left: -25px;
+    }
+    .time-line::before {
+        left: 0;
+    }
+    .year-left p{
+        width: 0%;
+    }
+}
+@media only screen and (max-width: 320px) {
     .time-line::before {
         left: 0;
     }
