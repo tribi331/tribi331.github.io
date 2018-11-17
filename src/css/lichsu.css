@@ -75,6 +75,7 @@
 .discription {
     text-align: justify;
     margin: 0 15px;
+    font-weight: bold;
 }
 .list-content span {
     margin-top: -30px;
