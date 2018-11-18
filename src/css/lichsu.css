@@ -106,6 +106,9 @@
     .content-discription-all {
         margin-bottom: 20px;
     }
+    .list-group {
+        max-width: 445px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .time-line::before {
