@@ -84,7 +84,16 @@
 .list-content .height-title {
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 475px) {
+/* @media only screen and (max-width: 768px){
+    .list-group {
+        width: 100%;
+    }
+    .time-line {
+        right: 45%;
+    }
+    
+} */
+@media only screen and (max-width: 600px) {
     .year-left::before {
         left: -25px;
     }
@@ -93,6 +102,9 @@
     }
     .year-left p{
         width: 0%;
+    }
+    .content-discription-all {
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 320px) {
@@ -109,5 +121,8 @@
         background-color: #f3ebeb;
         border-radius: 10px;
         margin: 10px 0;
+    }
+    .content-discription-all {
+        margin-bottom: 20px;
     }
 }
