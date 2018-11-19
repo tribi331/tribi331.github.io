@@ -130,10 +130,10 @@
 }
 .title-line-bottom::before {
     position: absolute;
-    top: -53px;
+    top: -52px;
     left: 25px;
     height: 36px;
-    width: 4px;
+    width: 10px;
     /* border-left: 1px solid black; */
     content: '';
     background-color: #d71920;
@@ -199,7 +199,7 @@
         font-size: 14px;
     }
     .display-content {
-        margin: 20px 0;
+        margin:0;
     } 
     .select-content h3 {
         margin-left: -10px;
@@ -220,5 +220,15 @@
     .header-item-top {
         font-size: 16px;
         font-weight: bold;
+    }
+    .center-text-content h1 {
+        font-size: 14px;
+    }
+    .map {
+        width: 100%;
+    }
+    .map iframe {
+        width: 100%;
+        height: auto;
     }
 }
