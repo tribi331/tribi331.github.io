@@ -164,3 +164,12 @@
     height: 0;
     overflow: hidden;
 }
+@media only screen and (max-width: 320px) {
+    .display-content .nav-item p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .select-content h3 {
+        padding: 0;
+    }
+}
