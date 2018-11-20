@@ -113,16 +113,21 @@
     }
     .title-header-content::before {
         top: 2px;
+        left: 0;
+    }
+    .title-header-content::after {
+        left: 10px;
     }
     .discription-one p {
-        font-size: 10px;
+        font-size: 11px;
     }
     .discription-two p {
-        font-size: 10px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.4;
     }
     .discription-one {
         padding-top: 8px;
+        margin: 0;
     }
     .nav a {
         font-size: 10px;
@@ -132,5 +137,12 @@
     }
     .form-submit {
         margin-bottom: 20px;
+    }
+    .title-header-content h1 {
+        padding-left: 10px;
+        margin-left: -25px;
+    }
+    .location {
+        margin-bottom: 10px;
     }
 }
