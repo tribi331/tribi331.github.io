@@ -80,6 +80,7 @@
 }
 .list-content span {
     margin-top: -30px;
+    font-family: 'UTM Copperplate';
 }
 .list-content .height-title {
     margin-bottom: 30px;
@@ -87,16 +88,51 @@
 .list-group {
     margin-left: 100px;
 }
-@media only screen and (max-width: 1024px) {
+.list-group p {
+    font-family: 'UTM Copperplate';
+}
+@media only screen and (max-width: 1200px) {
+    .list-group {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .list-content span {
+        font-size: 28px;
+    }
+    .content-discription-all {
+        padding: 0;
+    }
+    .tab-content {
+        margin-top: 35px;
+    }
+    .list-content {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 920px) {
     .list-group {
         margin-left: 0;
-        max-width: 100%;
     }
+    .qua-trinh-phat-trien span {
+        font-size: 28px;
+    }
+    
 }
 @media only screen and (max-width: 768px){
     .list-group {
-        margin-left: 0;
+        padding: 0;
+        max-width: 100%;
     }
+    .time-line::before {
+        left: 0;
+    }
+    .year-left::before {
+        left: -24px;
+    }
+    .year-left p {
+        width: 0;
+    }
+    
 }
 @media only screen and (max-width: 600px) {
     .year-left::before {
@@ -112,8 +148,30 @@
         margin-bottom: 20px;
     }
     .list-group {
-        width: 100%;
-        margin-left: 0;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mo-ta-noi-dung img {
+        padding-bottom: 10px;
+    }
+    .qua-trinh-phat-trien span {
+        font-size: 27px;
+        padding-top: 50px;
+    }
+    .mo-ta-noi-dung img {
+        padding-bottom: 20px;
+    }
+    .tab-content {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 475px) {
+    .qua-trinh-phat-trien span {
+        font-size: 23px;
+        padding-top: 20px;
+    }
+    .mo-ta-noi-dung img {
+        padding-bottom: 15px;
     }
 }
 @media only screen and (max-width: 320px) {
@@ -136,6 +194,13 @@
     }
     .list-group {
         width: 100%;
-        margin-left: 0;
+        padding: 0;
+    }
+    .mo-ta-noi-dung img {
+        padding-bottom: 10px;
+    }
+    .qua-trinh-phat-trien span {
+        font-size: 20px;
+        padding-top: 20px;
     }
 }
