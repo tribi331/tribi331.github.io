@@ -202,7 +202,7 @@
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 992px){
     .map-img img {
         width: 75%;
     }
@@ -225,6 +225,9 @@
     }
     .select-content .title-content {
         text-align: justify;
+    }
+    .display-content {
+        height: 450px;
     }
 }
  @media only screen and (max-width: 475px) {

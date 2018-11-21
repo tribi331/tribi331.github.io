@@ -174,8 +174,28 @@
         font-size: 15px;
         line-height: 1.5;
     }
+    .list-scroll {
+        height: 385px;
+    }
+    .header-item-top {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .display-content .nav-item .item-vip {
+        font-size: 14px;
+    }
+    .display-content li::before {
+        padding: 4px;
+    }
+    .nav-item p {
+        font-size: 13px;
+        line-height: 1.2;   
+    }
+    .select-content h3 {
+        margin-left: 25px;
+    }
 }
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 992px) {
     .display-content .nav-item p {
         font-size: 14px;
         line-height: 1.5;

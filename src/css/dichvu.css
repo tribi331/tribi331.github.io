@@ -13,8 +13,9 @@
 .text-content-center .text-color {
     color: #d71920;
     font-weight: bold;
-    font-family: 'UTM Neo Sans Intel Bold';
+    font-family: 'UTM Neo Sans Intel';
     font-size: 14px;
+    font-weight: bold;
 }
 .text-content-center .btn-download {
     background-color: #d71920;
@@ -23,10 +24,11 @@
     margin-top: 3px;
     width: 100%;
     /* font-weight: 500; */
-    font-family: 'UTM NeoSansIntelBold';
+    font-family: 'UTM Neo Sans Intel';
     font-size: 14px;
     height: 33px;
     position: relative;
+    font-weight: bold;
 }   
 .icon-download {
     position: absolute;
@@ -34,8 +36,13 @@
     left: 71%;
 }
 .content-one {
-    font-family:'UTM NeoSansIntelBold';
+    font-family:'UTM Neo Sans Intel';
+    font-weight: bold;
     text-align: justify;
+}
+.list-content .content-one p {
+    font-family:'UTM Neo Sans Intel';
+    font-weight: bold;
 }
 .content-two {
     font-family: 'UTM Neo Sans Intel';
@@ -95,6 +102,7 @@
     .text-content-center .btn-download {
         padding-left: 0;
         font-size: 10px;
+        width: 100%;
     }
     .icon-download {
         top: 15px;
@@ -115,6 +123,9 @@
         top: 15px;
         left: 57%;
     }
+    .text-content-center .btn-download {
+        width: 30%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .list-group {
@@ -122,6 +133,9 @@
         margin-right: auto;
         max-width: 100%;
         margin-bottom: 20px;
+    }
+    .text-content-center .btn-download {
+        width: 30%;
     }
 }
 @media only screen and (max-width: 475px) {
@@ -142,10 +156,10 @@
         max-width: 100%;
     }
     .text-content-center .btn-download {
-        width: 70%;
+        width: 35%;
     }
     .icon-download {
         top: 15px;
-        left: 60%;
+        left: 59%;
     }
 }
