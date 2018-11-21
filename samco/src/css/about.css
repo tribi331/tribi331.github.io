@@ -110,6 +110,9 @@ section .img-dcm{
     .content-two {
         text-align: justify;
     }
+    .tab-content {
+        padding: 0 10px;
+    }
 }
 @media only screen and (max-width: 992px) {
     .list-group {
@@ -125,6 +128,9 @@ section .img-dcm{
     .content-two {
         text-align: justify;
     }
+    .tab-content {
+        padding: 0 10px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .tab-content {
@@ -132,6 +138,7 @@ section .img-dcm{
     }
     .list-content {
         width: 100%;    
+        margin-bottom: 25px;
     }
     .list-group {
         margin: 0;
@@ -147,6 +154,12 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 22px;
+    }
+    .content .menu-footer .menu-footer-child {
+        display: none;
+    }
+    .content .menu-footer{
+        padding-top:25px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -155,6 +168,7 @@ section .img-dcm{
     }
     .list-content {
         width: 100%;    
+        margin-bottom: 25px;
     }
     .list-group {
         margin: 0;
@@ -170,6 +184,12 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 22px;
+    }
+    .content .menu-footer .menu-footer-child {
+        display: none;
+    }
+    .content .menu-footer{
+        padding-top:25px;
     }
 }
 @media only screen and (max-width: 475px) {
@@ -177,7 +197,8 @@ section .img-dcm{
         padding: 0;
     }
     .list-content {
-        width: 100%;    
+        width: 100%;   
+        margin-bottom: 25px; 
     }
     .list-group {
         margin: 0;
@@ -193,6 +214,12 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 22px;
+    }
+    .content .menu-footer .menu-footer-child {
+        display: none;
+    }
+    .content .menu-footer{
+        padding-top:25px;
     }
 }
 @media only screen and (max-width: 320px) {
@@ -201,6 +228,7 @@ section .img-dcm{
     }
     .list-content {
         width: 100%;    
+        margin-bottom: 25px;
     }
     .list-group {
         margin: 0;
@@ -216,5 +244,11 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 20px;
+    }
+    .content .menu-footer .menu-footer-child {
+        display: none;
+    }
+    .content .menu-footer{
+        padding-top:25px;
     }
 }   
