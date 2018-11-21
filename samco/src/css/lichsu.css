@@ -124,22 +124,25 @@
         max-width: 100%;
     }
     .time-line::before {
-        left: 0;
+        left: 15px;
     }
     .year-left::before {
-        left: -24px;
+        left: -10px;
     }
     .year-left p {
         width: 0;
+    }
+    .year-right::before {
+        left: -10px;
     }
     
 }
 @media only screen and (max-width: 600px) {
     .year-left::before {
-        left: -25px;
+        left: -10px;
     }
     .time-line::before {
-        left: 0;
+        left: 15px;
     }
     .year-left p{
         width: 0%;
@@ -164,6 +167,9 @@
     .tab-content {
         padding: 0;
     }
+    .year-right::before {
+        left: -10px;
+    }
 }
 @media only screen and (max-width: 475px) {
     .qua-trinh-phat-trien span {
@@ -173,13 +179,22 @@
     .mo-ta-noi-dung img {
         padding-bottom: 15px;
     }
+    .time-line::before {
+        left: 9px;
+    }
+    .year-left::before {
+        left: -15px;
+    }
+    .year-right::before {
+        left: -16px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .time-line::before {
-        left: 0;
+        left: 9px;
     }
     .year-left::before {
-        left: -11%;
+        left: -15px;
     }
     .year-left p{
         width: 0%;
@@ -202,5 +217,8 @@
     .qua-trinh-phat-trien span {
         font-size: 20px;
         padding-top: 20px;
+    }
+    .year-right::before {
+        left: -16px;
     }
 }

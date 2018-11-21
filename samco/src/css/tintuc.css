@@ -1547,13 +1547,29 @@ footer .showroom span {
     white-space: nowrap;
   }
 }
+@media screen and (max-width: 768px) {
+  .content .menu-footer .menu-footer-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content .menu-footer .menu-footer-child {
+    display: none;
+  }
+}
 @media screen and (max-width: 475px) {
   html {
     font-size: 14px;
+  }
+  .content .menu-footer .menu-footer-child {
+    display: none;
   }
 }
 @media screen and (max-width: 320px) {
   html {
     font-size: 13px;
+  }
+  .content .menu-footer .menu-footer-child {
+    display: none;
   }
 }
