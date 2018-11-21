@@ -286,7 +286,7 @@
         height: 40%;
     }
     .select-content h3 {
-        font-size: 11px;
+        font-size: 14px;
         margin-left: 0;
     }
     .fa-caret-down {
@@ -296,9 +296,11 @@
         font-size: 14px;
         font-weight: 800;
         padding-top: 5px;
+        margin-left: 35px;
     }
     .display-content .nav-item .item-vip {
         font-size: 14px;
+        margin-left: -25px;
     }
     .display-content .nav-item {
         margin-bottom: 0;
@@ -307,9 +309,30 @@
         padding-bottom: 0px;
         padding-top: 0;
         padding: 0 5px;
+        margin-left: -15px;
     }
     .display-content .nav-item p {
         font-size: 13px;
+        margin-left: -25px;
+    }
+    .row-compartment {
+        margin: 0;
+    }
+    .title-line-bottom::before {
+        left: 10px;
+    }
+    .title-line-bottom::after {
+        left: 10px;
+    }
+    .center-text-content h1 {
+        font-size: 21px;
+    }
+    .select-content .title-content {
+        font-size: 14px;
+        padding: 0;
+    }
+    .display-content {
+        margin-bottom: -100px;
     }
 }
 .nav {
