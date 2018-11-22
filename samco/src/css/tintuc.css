@@ -1547,6 +1547,23 @@ footer .showroom span {
     white-space: nowrap;
   }
 }
+@media screen and (max-width:1200px) {
+  .content .news .news-content .news-item-top .news-box .card-body .card-text {
+    min-height: 175px;
+  }
+}
+@media screen and (max-width:992px) {
+  .content .news .news-content .news-item-top .news-box .card-img-top {
+    padding-top: 3px;
+    padding-left: 3px;
+  }
+  .content .news .news-content .news-item-top .news-box .card-body{
+    padding: 0;
+  }
+  .content .news .news-content .news-item-top .news-box .card-body .card-text {
+    min-height: 120px;
+  }
+}
 @media screen and (max-width: 768px) {
   .content .menu-footer .menu-footer-child {
     display: none;

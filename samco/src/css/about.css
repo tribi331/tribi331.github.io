@@ -102,7 +102,8 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+        margin-top: 10px;
     }
     .content-one {
         text-align: justify;
@@ -119,8 +120,8 @@ section .img-dcm{
         margin-left: 0;
     }
     .list-content span {
-        font-size: 25px;
-        padding-bottom: 30px;
+        font-size: 24px;
+        padding-bottom: 20px;
     }
     .content-one {
         text-align: justify;
@@ -153,7 +154,8 @@ section .img-dcm{
         text-align: justify;
     }
     .list-content span {
-        font-size: 22px;
+        font-size: 24px;
+        margin-bottom: -15px;
     }
     .content .menu-footer .menu-footer-child {
         display: none;
@@ -183,7 +185,8 @@ section .img-dcm{
         text-align: justify;
     }
     .list-content span {
-        font-size: 22px;
+        font-size: 24px;
+        margin-bottom: -15px;
     }
     .content .menu-footer .menu-footer-child {
         display: none;
@@ -213,7 +216,8 @@ section .img-dcm{
         text-align: justify;
     }
     .list-content span {
-        font-size: 22px;
+        font-size: 23px;
+        margin-bottom: -15px;
     }
     .content .menu-footer .menu-footer-child {
         display: none;
@@ -244,6 +248,7 @@ section .img-dcm{
     }
     .list-content span {
         font-size: 20px;
+        margin-bottom: -15px;
     }
     .content .menu-footer .menu-footer-child {
         display: none;

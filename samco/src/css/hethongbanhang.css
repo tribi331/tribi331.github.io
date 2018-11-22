@@ -198,6 +198,9 @@
     .select-content h3 {
         margin-left: 25px;
     }
+    .center-text-content h1 {
+        font-size: 30px;
+    } 
 }
 @media only screen and (max-width: 992px) {
     .display-content .nav-item p {
@@ -235,6 +238,9 @@
         margin-top: 5px;
         margin-left: -20px;
     }
+    .center-text-content h1 {
+        font-size: 24px;
+    }
     
 }
 @media only screen and (max-width: 768px) {
@@ -260,6 +266,9 @@
         margin-top: 30px;
         margin-bottom: -90px;
     }
+    .center-text-content h1 {
+        font-size: 24px;
+    }
     
 }
 @media only screen and (max-width: 600px) {
@@ -272,6 +281,9 @@
     }
     h3.one {
         padding: 0;
+    }
+    .center-text-content h1 {
+        font-size: 24px;
     }
 }
 @media only screen and (max-width: 475px) {

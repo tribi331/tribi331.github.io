@@ -201,6 +201,9 @@
         line-height: 1.5;
         font-size: 15px;
     }
+    .center-text-content h1 {
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 992px){
     .map-img img {
@@ -294,7 +297,7 @@
         left: 10px;
     }
     .center-text-content h1 {
-        font-size: 21px;
+        font-size: 20px;
     }
     .select-content .title-content {
         font-size: 14px;
@@ -349,7 +352,7 @@
         left: 10px;
     }
     .center-text-content h1 {
-        font-size: 21px;
+        font-size: 20px;
     }
     .select-content .title-content {
         font-size: 14px;
