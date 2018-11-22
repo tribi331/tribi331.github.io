@@ -1,9 +1,14 @@
 .form-control-vip {
     padding: 71px 0;
 }
+.text-center {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 .form-submit {
     background-color: white;
     margin-top: 25px;
+    margin-bottom: 60px;
 }
 .input-title {
     font-size: 14px;
@@ -33,8 +38,8 @@
     width: 90%;
     height: 2px;
     content: '';
-    background-color: red;
-    top: 66%;
+    background-color: #d71920;
+    top: 70%;
     left: 25px;
 }
 .location {
@@ -50,13 +55,13 @@
     width: 10px;
     height: 25px;
     content: '';
-    background-color: red;
+    background-color: #d71920;
     top: 3px;
     left: 25px;
 }
 .button-click button {
     color: white;
-    background-color: red;
+    background-color: #d71920;
     margin-top: 20px;
     margin-bottom: 35px;
     padding: 10px;
@@ -82,7 +87,7 @@
     padding-right: 10px;
 }
 .square {
-    color: red;
+    color: #d71920;
     padding-right: 10px;
 }
 .fas {
@@ -160,6 +165,13 @@
     .title-header-content h1 {
         margin-left: -25px;
     }
+    .text-center {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .form-submit {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .map-contact {
@@ -177,6 +189,7 @@
     }
     .text-center p {
         text-align:justify;
+        font-size: 15px;
     }
     .title-header-content::after {
         top: 70%;
@@ -186,6 +199,19 @@
     }
     .information {
         margin-bottom: 20px;
+    }
+    .text-center {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .form-submit {
+        margin-bottom: 30px;
+    }
+    .content .title-line {
+        width:70%;
+    }
+    .content .title-line::before {
+        width: 20%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -208,6 +234,10 @@
     .map-contact {
         width: 100%;
     }
+    .text-center {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
     .map-contact iframe {
         width: 100%;
         height: 400px;
@@ -217,7 +247,7 @@
     }
     .text-center p {
         text-align: justify;
-        font-size: 16px;
+        font-size: 15px;
     }
     .discription-one p {
         font-size: 13px;
@@ -255,6 +285,12 @@
     .discription-one {
         margin: 0;
     }
+    .content .title .txt-title {
+        font-size: 23px;
+    }
+    .form-submit {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .map-contact {
@@ -265,7 +301,7 @@
         height: auto;
     }
     .content .title .txt-title {
-        font-size: 16px;
+        font-size: 20px;
     }
     .text-center p {
         text-align: justify;
@@ -312,6 +348,10 @@
         line-height: 1.2;
     }
     .information {
+        margin-bottom: 20px;
+    }
+    .text-center {
+        margin-top: 15px;
         margin-bottom: 20px;
     }
 }
