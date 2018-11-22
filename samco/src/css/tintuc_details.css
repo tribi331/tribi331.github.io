@@ -891,6 +891,7 @@ header .menu nav ul li.nav-item .sub-menu .sub-menu-content .all-content .navbar
   color: #5f5b5b;
   padding-top: 30px;
   margin-bottom: 0;
+  text-align: justify;
 }
 .content .news .news-content .news-text img {
   padding-top: 30px;
@@ -1565,15 +1566,60 @@ footer .showroom span {
     font-size: 9px;
     white-space: nowrap;
   }
+  @media screen and (max-width: 1200px) {
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
+  }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 767px){
   .content .menu-footer .menu-footer-child {
     display: none;
+  }
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
+  }
+  .content .news .news-content .nav-item {
+    flex: 17.33333%;
   }
 }
 @media screen and (max-width: 600px) {
   .content .menu-footer .menu-footer-child {
     display: none;
+  }
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .nav-item {
+    flex: 17.33333%;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
   }
 }
 @media screen and (max-width: 475px) {
@@ -1583,6 +1629,18 @@ footer .showroom span {
   .content .menu-footer .menu-footer-child {
     display: none;
   }
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
+  }
+  .content .news .news-content .nav-item {
+    flex: 16.33333%;
+  }
 }
 @media screen and (max-width: 320px) {
   html {
@@ -1590,5 +1648,17 @@ footer .showroom span {
   }
   .content .menu-footer .menu-footer-child {
     display: none;
+  }
+  .content .news .news-content .nav-item {
+    flex: 16.33333%;
+  }
+  .content .news .news-content .news-text h3 {
+    text-align: justify;
+  }
+  .content .news .news-content .news-text p {
+    text-align: justify;
+  }
+  .content .news .sidebar .card .card-text {
+    text-align: justify;
   }
 }
