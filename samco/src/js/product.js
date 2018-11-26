@@ -3,6 +3,7 @@ $(document).ready(function(){
         loop:true,
         margin:40,
         nav:true,
+        navText: ["<img src='images/sanpham/arrow-pre.png'>","<img src='images/sanpham/arrow-next.png'>"],
         responsive:true,
         responsive:{
             0:{
