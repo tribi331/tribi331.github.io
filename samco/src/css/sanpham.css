@@ -20,6 +20,11 @@ span.nav-link.active::after {
     top: 0;
     left:-60%;
 }
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+}
+
 span.nav-link.active::before {
     background-image: url("../images/layoutSanpham_2.png");
     content: '';
@@ -45,6 +50,22 @@ span.nav-link.active::before {
     top: 100%;
     left: 38px;
     border-radius: 5px;
+}
+.product-samco h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'UTM Copperplate';
+    font-size: 24px;
+}
+.product-samco .title-product p {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.item-product .item-product-center {
+    margin-left: 55px;
+}
+.item-product .item-product-right {
+    margin-left: 150px;
 }
 .nav-item .item-header:hover::before{
     width: 70%;
@@ -115,7 +136,7 @@ span.nav-link.active::before {
     transform: translateX(-50%);
 }
 .discription-content p {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: justify;
     font-family: 'UTM Neo Sans Intel';
     font-size: 16px;
@@ -128,6 +149,41 @@ span.nav-link.active::before {
     font-family: 'UTM Neo Sans Intel';
     font-size: 18px;
     padding-left: 45px;
+}
+.color-page {
+    margin-top: 75px;
+}
+.car-color span {
+    display: block;
+    font-weight: bold;
+    padding-left: 30px;
+    position: relative;
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 18px;
+    padding-left: 45px;
+}
+.car-color span::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #e2e2e2;
+    top: 120%;
+}
+.icon-color img {
+    margin-left: 35px;
+    padding-top: 22px;
+}
+.p-color-content{
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.p-color-content p.active {
+    font-weight: bold;
+}
+.p-color-content p {
+    padding-bottom: 16px;
+    /* margin-top: 20px; */
 }
 .content-header span::before {
     position: absolute;
@@ -232,6 +288,15 @@ td {
     padding: auto 0;
     border-bottom: 3px solid #d71920;
     margin-bottom: 20px;
+    position: relative;
+}
+.text-content-center::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    top: 48%;
+    background-color: white;
 }
 .text-content-center .btn-download {
     background-color: #d71920;
@@ -285,5 +350,11 @@ td {
     }
     .owl-carousel .owl-nav button.owl-next {
         margin-left: -20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    ul.nav {
+        flex-direction: column;
     }
 }
