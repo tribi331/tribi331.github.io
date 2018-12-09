@@ -91,6 +91,18 @@
 .list-group p {
     font-family: 'UTM Copperplate';
 }
+.carousel-indicators li{
+    text-indent: 0;
+    color: white;
+    background-color: transparent;
+    padding: 0 50px;
+}
+.carousel-indicators .active{
+    background-color: transparent;
+}
+.carousel-control-next-icon{
+    color: black;
+}
 @media only screen and (max-width: 1200px) {
     .list-group {
         width: 100%;
@@ -221,4 +233,4 @@
     .year-right::before {
         left: -16px;
     }
-}
+    

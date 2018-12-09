@@ -53,7 +53,7 @@ span.nav-link.active::before {
 }
 .product-samco h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'UTM Copperplate';
     font-size: 24px;
 }
@@ -332,6 +332,239 @@ td {
 .icon-download {
     margin-bottom: -20px;
 }
+.item-product {
+    text-align: center;
+}
+.table-mobile{
+    display: none;
+}
+.silde-mobile {
+    display: none;
+}
+.menu-mobile-2 h5{
+    display: none;
+    background-color: #d71920;
+    height: 38px;
+    padding-top: 6px;
+    max-width: 60%;
+    position: relative;
+}
+.download-mobile{
+    display: none;
+    position: relative;
+}
+.download-mobile::before{
+    position: absolute;
+    content: '';
+    background-color: #d71920;
+    height: 2px;
+    width: 100%;
+}
+.download-mobile::after {
+    position: absolute;
+    content: '';
+    background-color: #d71920;
+    height: 2px;
+    width: 100%;
+    top: 110%;
+}
+.text-mobile{
+    padding: 12px 13px;
+}
+.text-active-moblie{
+    padding: 0 10px;
+    margin-left: -8px;
+}
+@media only screen and (max-width: 620px) {
+    .title-line {
+        max-width: 100%;
+    }
+    .owl-carousel .owl-item img {
+        padding: 0 25px;
+    }
+    .carousel-p p {
+        text-align: center;
+    }
+    .carousel-p p::before{
+        left: -15px;
+    }
+    .content-header span::before{
+        width: 8%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        margin-left: -20px;
+    }
+    .item-product{
+        text-align: center;
+    }
+    .item-product .item-product-center{
+        margin-left: 0;
+    }
+    .item-product .item-product-right{
+        margin-left: 0;
+    }
+    .product-samco .title-product p{
+        text-align: center;
+    }
+    .table-web{
+        display: 
+        none;
+    }
+    .table-mobile{
+        display: block;
+        padding: 0 40px;
+    }
+    .carousel {
+        display: none;
+    }
+    .silde-mobile {
+        display: block;
+        background: #e2e2e2;
+        padding-top: 20px;
+    }
+    .silde-mobile .sub-img p{
+        position: relative;
+        padding-left: 40px;
+        padding-top: -15px;
+    }
+    .silde-mobile .sub-img {
+        margin-top: -15px;
+    }
+    .silde-mobile .sub-img p::before{
+        content: '';
+        position: absolute;
+        background-image: url(../images/sanpham/tamgiac.png);
+        width: 20px;
+        left: 0;
+        height: 15px;
+        top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .furniture {
+        background-color: #f2f2f2;
+    }
+    .engine{
+        background-color: #f2f2f2;
+    }
+    .table-item {
+        background-color: #cccccc;
+    }
+    .download .text-center {
+        display: none;
+    }
+    .download-mobile{
+        display: block;
+    }
+    .btn-detail{
+        padding: 0 20px;
+    }
+    ul.nav{
+        display: none;
+    }
+    .silde-mobile img{
+        width: 100%;
+    }
+    .text-mobile {
+        padding: 12px 50px;
+    }
+}
+@media only screen and (max-width: 475px) {
+    .title-line {
+        max-width: 100%;
+    }
+    .owl-carousel .owl-item img {
+        padding: 0 25px;
+    }
+    .carousel-p p {
+        text-align: center;
+    }
+    .carousel-p p::before{
+        left: -15px;
+    }
+    .content-header span::before{
+        width: 8%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        margin-left: -20px;
+    }
+    .item-product{
+        text-align: center;
+    }
+    .item-product .item-product-center{
+        margin-left: 0;
+    }
+    .item-product .item-product-right{
+        margin-left: 0;
+    }
+    .product-samco .title-product p{
+        text-align: center;
+    }
+    .table-web{
+        display: 
+        none;
+    }
+    .table-mobile{
+        display: block;
+        padding: 0 40px;
+    }
+    .carousel {
+        display: none;
+    }
+    .silde-mobile {
+        display: block;
+        background: #e2e2e2;
+        padding-top: 20px;
+    }
+    .silde-mobile .sub-img p{
+        position: relative;
+        padding-left: 40px;
+        padding-top: -15px;
+    }
+    .silde-mobile .sub-img {
+        margin-top: -15px;
+    }
+    .silde-mobile .sub-img p::before{
+        content: '';
+        position: absolute;
+        background-image: url(../images/sanpham/tamgiac.png);
+        width: 20px;
+        left: 0;
+        height: 15px;
+        top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .furniture {
+        background-color: #f2f2f2;
+    }
+    .engine{
+        background-color: #f2f2f2;
+    }
+    .table-item {
+        background-color: #cccccc;
+    }
+    .download .text-center {
+        display: none;
+    }
+    .download-mobile{
+        display: block;
+    }
+    .btn-detail{
+        padding: 0 20px;
+    }
+    ul.nav{
+        display: none;
+    }
+    .silde-mobile img{
+        width: 100%;
+    }
+    .text-mobile {
+        padding: 12px 50px;
+    }
+}
 @media only screen and (max-width: 320px) {
     .title-line {
         max-width: 100%;
@@ -350,6 +583,72 @@ td {
     }
     .owl-carousel .owl-nav button.owl-next {
         margin-left: -20px;
+    }
+    .item-product{
+        text-align: center;
+    }
+    .item-product .item-product-center{
+        margin-left: 0;
+    }
+    .item-product .item-product-right{
+        margin-left: 0;
+    }
+    .product-samco .title-product p{
+        text-align: center;
+    }
+    .table-web{
+        display: 
+        none;
+    }
+    .table-mobile{
+        display: block;
+        
+    }
+    .carousel {
+        display: none;
+    }
+    .silde-mobile {
+        display: block;
+        background: #e2e2e2;
+        padding-top: 20px;
+    }
+    .silde-mobile .sub-img p{
+        position: relative;
+        padding-left: 40px;
+        padding-top: -15px;
+    }
+    .silde-mobile .sub-img {
+        margin-top: -15px;
+    }
+    .silde-mobile .sub-img p::before{
+        content: '';
+        position: absolute;
+        background-image: url(../images/sanpham/tamgiac.png);
+        width: 20px;
+        left: 0;
+        height: 15px;
+        top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .furniture {
+        background-color: #f2f2f2;
+    }
+    .engine{
+        background-color: #f2f2f2;
+    }
+    .table-item {
+        background-color: #cccccc;
+    }
+    .download .text-center {
+        display: none;
+    }
+    .download-mobile{
+        display: block;
+    }
+    .btn-detail{
+        padding: 0 20px;
     }
 }
 
