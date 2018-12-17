@@ -1,0 +1,37 @@
+.card-body{
+    min-height: 220px;
+}
+.map-fix{
+    width: 100%;
+    height: 450px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .search .form-control{
+        position: relative;
+    }
+    .btn-search{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50%;
+    }
+    
+} 
+@media only screen and (max-width: 1400px){
+    .search .form-control{
+        position: relative;
+    }
+    .btn-search{
+        position: absolute;
+        top: 15%;
+        right: 0;
+        z-index: 999;
+    }
+}
+  
+@media only screen and (max-width: 2600px) {
+    .title-km{
+        margin-top: -4%;
+    }
+}
