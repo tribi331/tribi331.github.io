@@ -7,10 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./Hover-master/css/hover-min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bau.css">
     <link rel="stylesheet" href="css/index-fix.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
 
@@ -124,158 +127,183 @@
                 <!-- product content -->
                 <div class="products-content">
                     <!-- menu-products -->
-                    <div class="row row-menu">
-                        <div class="col-md-12 menu-item">
-                            <div class="list-group" id="list-tab" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-home-list"
-                                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">CƠM</a>
-                                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
-                                    href="#list-profile" role="tab" aria-controls="profile">XÔI</a>
-                                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
-                                    href="#list-messages" role="tab" aria-controls="messages">MIẾN</a>
-                                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                                    href="#list-settings" role="tab" aria-controls="settings">KHÁC</a>
+                    <div class="container">
+                        <div class="owl-carousel owl-theme">
+                            <!-- <div class="row row-menu"> -->
+                            <!-- <div class="col-md-12 menu-item"> -->
+                            <div class="item">
+                                <div class="list-group" id="list-tab" role="tablist">
+
+                                    <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                        data-toggle="list" href="#list-home" role="tab" aria-controls="home">CƠM</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="list-group" id="list-tab" role="tablist">
+
+                                    <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                        data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="list-group" id="list-tab" role="tablist">
+
+                                    <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                        data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="list-group" id="list-tab" role="tablist">
+
+                                    <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                        data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="product">
+            <!-- title -->
+            <!-- end title -->
+            <!-- news-item -->
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="product-item">
+                    <div class="container">
+                        <div class="row row-product">
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a data-toggle="modal" onclick='Showmodal(2)' href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="product">
-                <!-- title -->
-                <!-- end title -->
-                <!-- news-item -->
-                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                    <div class="product-item">
-                        <div class="container">
-                            <div class="row row-product">
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
-                                                class="card-img-top" alt="img_8.jpg"> </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="product-item">
+                    <div class="container">
+                        <div class="row row-product">
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
                                 </div>
+                                <div class="card-product">
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
-                                                class="card-img-top" alt="img_8.jpg"> </a>
-                                    </div>
-                                    <div class="card-product">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                        <a data-toggle="modal" onclick='Showmodal(2)' href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-home-list">
-                    <div class="product-item">
-                        <div class="container">
-                            <div class="row row-product">
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
-                                                class="card-img-top" alt="img_8.jpg"> </a>
-                                    </div>
-                                    <div class="card-product">
 
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
-                                </div>
-
-                                <!-- <div class="col-md-4 col-product">
+                            <!-- <div class="col-md-4 col-product">
                                     <div class="product-img">
                                         <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
                                                 class="card-img-top" alt="img_8.jpg"> </a>
@@ -308,190 +336,190 @@
                                     </div>
                                 </div> -->
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
                                 </div>
+                                <div class="card-product">
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                    </div>
                                 </div>
+                            </div>
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
 
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                        <p class="price-text">40.000 VNĐ</p>
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-home-list">
-                    <div class="product-item">
-                        <div class="container">
-                            <div class="row row-product">
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
-                                                class="card-img-top" alt="img_8.jpg"> </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="product-item">
+                    <div class="container">
+                        <div class="row row-product">
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
                                 </div>
+                                <div class="card-product">
 
-                                <div class="col-md-4 col-product">
-                                        <div class="product-img">
-                                            <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
-                                                    class="card-img-top" alt="img_8.jpg"> </a>
-                                        </div>
-                                        <div class="card-product">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                            <a data-toggle="modal" onclick='Showmodal(2)' href="" class="hvr-bounce-in">
-                                                <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                            </a>
-
-                                            <p class="price-text">40.000 VNĐ</p>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 col-product">
-                                        <div class="product-img">
-                                            <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="card-product">
-
-                                            <a href="" class="hvr-bounce-in">
-                                                <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                            </a>
-
-                                            <p class="price-text">40.000 VNĐ</p>
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                        </div>
-                                    </div>
-
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
                                 </div>
+                            </div>
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
-
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
-
-                                        <p class="price-text">40.000 VNĐ</p>
-
-
-                                    </div>
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
                                 </div>
+                                <div class="card-product">
 
-                                <div class="col-md-4 col-product">
-                                    <div class="product-img">
-                                        <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="card-product">
+                                    <a data-toggle="modal" onclick='Showmodal(2)' href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                        <a href="" class="hvr-bounce-in">
-                                            <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                        </a>
+                                    <p class="price-text">40.000 VNĐ</p>
 
-                                        <p class="price-text">40.000 VNĐ</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href=""><img src="img/images/img_1.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-product">
+
+                                    <a href="" class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
+
+                                    <p class="price-text">40.000 VNĐ</p>
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-home-list">
-                        <div class="product-item">
-                            <div class="container">
-                                <div class="row row-product">
-                                    <div class="col-md-4 col-product">
-                                        <div class="product-img">
-                                            <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
-                                                    class="card-img-top" alt="img_8.jpg"> </a>
-                                        </div>
-                                        <div class="card-product">
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="product-item">
+                    <div class="container">
+                        <div class="row row-product">
+                            <div class="col-md-4 col-product">
+                                <div class="product-img">
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)'><img src="img/images/img_1.jpg"
+                                            class="card-img-top" alt="img_8.jpg"> </a>
+                                </div>
+                                <div class="card-product">
 
-                                            <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
-                                                <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
-                                            </a>
+                                    <a href="#" data-toggle="modal" onclick='Showmodal(1)' class="hvr-bounce-in">
+                                        <h4>Cơm gà ta a Dổi (Đặt Biệt)</h4>
+                                    </a>
 
-                                            <p class="price-text">40.000 VNĐ</p>
+                                    <p class="price-text">40.000 VNĐ</p>
 
 
-                                        </div>
-                                    </div>
+                                </div>
+                            </div>
 
-                                    <!-- <div class="col-md-4 col-product">
+                            <!-- <div class="col-md-4 col-product">
                                             <div class="product-img">
                                                 <a href="" data-toggle="modal" onclick='Showmodal(2)'><img src="img/images/img_1.jpg"
                                                         class="card-img-top" alt="img_8.jpg"> </a>
@@ -575,9 +603,9 @@
                                         </div>
                                     </div>
                                 </div> -->
-                            </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -597,60 +625,70 @@
                 <div class="container">
                     <div class="row row-km">
                         <div class="col-md-4">
-                            <div class="card">
-                                <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg"> </a>
-                            </div>
-                            <div class="card-body">
+                            <div class="full">
+                                <div class="card">
+                                    <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-body item_new">
 
-                                <a href="">
-                                    <h3 class="card-tile">Khuyến Mãi 1</h3>
-                                </a>
-                                <a href="">
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        Quis
-                                        assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
-                                        repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
-                                        praesentium libero!</p>
-                                </a>
+                                    <a href="">
+                                        <h3 class="card-tile">Khuyến Mãi 1</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Quis
+                                            assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
+                                            repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
+                                            praesentium libero!
+                                        </p>
+                                    </a>
 
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg"> </a>
-                            </div>
-                            <div class="card-body">
-
-                                <a href="">
-                                    <h3 class="card-tile">Khuyến Mãi 1</h3>
-                                </a>
-                                <a href="">
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        Quis
-                                        assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
-                                        repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
-                                        praesentium libero!</p>
-                                </a>
-
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card">
-                                <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg"> </a>
+                            <div class="full">
+                                <div class="card">
+                                    <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-body item_new">
+
+                                    <a href="">
+                                        <h3 class="card-tile">Khuyến Mãi 1</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="card-text">
+
+                                            assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
+                                            repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
+                                            praesentium libero!</p>
+                                    </a>
+
+                                </div>
                             </div>
-                            <div class="card-body">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full">
+                                <div class="card">
+                                    <a href=""><img src="img/images/img_8.jpg" class="card-img-top" alt="img_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="card-body item_new">
 
-                                <a href="">
-                                    <h3 class="card-tile">Khuyến Mãi 1</h3>
-                                </a>
-                                <a href="">
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        Quis
-                                        assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
-                                        repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
-                                        praesentium libero!</p>
-                                </a>
+                                    <a href="">
+                                        <h3 class="card-tile">Khuyến Mãi 1</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Quis
+                                            assumenda, non cumque esse autem corporis excepturi dolor rem, blanditiis
+                                            repellat sit iste nihil temporibus odio. Reiciendis, consectetur! Iste,
+                                            praesentium libero!</p>
+                                    </a>
 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -851,6 +889,7 @@
     </footer>
     <!-- end footer -->
     <!-- import script -->
+
     <script>
         /**
          * Used to demonstrate Hover.css only. Not required when adding
@@ -882,6 +921,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/carousel.js"></script>
+
     <!-- import script -->
     <script>
         function Showmodal(id) {
@@ -893,7 +935,14 @@
             }
         }
     </script>
+<script>
+$(".list-group-item").click(function() {
 
+    if (!$(this).hasClass("active")) {
+        $('.list-group-item').removeClass('active');
+            }
+});
+</script>
 
 </body>
 

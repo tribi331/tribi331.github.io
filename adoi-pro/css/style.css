@@ -520,6 +520,9 @@ margin-left: 40px;
 .search{
   margin-left: 25px;
 }
+.text-center{
+  margin-bottom: 4%;
+}
 .title h1{
   padding-top:2%;
 font-size: 50px;
@@ -697,8 +700,8 @@ footer{
 background-image: url("../img/icon/TC.png");
 }
 .list-group{
-  flex-direction: row;
-  margin: 0 270px;
+  flex-direction: row;  
+  justify-content: center;
 }
 .list-group-item.active{
   background-color: #d31f26;

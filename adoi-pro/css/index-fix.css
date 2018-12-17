@@ -1,9 +1,57 @@
-.card-body{
-    min-height: 220px;
+.item_new{
+    width: 100%;
+    height: 250px;
 }
 .map-fix{
     width: 100%;
     height: 450px;
+}
+.owl-carousel{
+    display: block;
+}
+.owl-carousel.owl-drag .owl-item{
+    width: 10%;
+}
+.owl-carousel .owl-stage-outer{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.owl-prev{
+    position: absolute;
+    bottom: -10%;
+    left: 2%;
+}
+.owl-prev span{
+    display: block;
+    font-size: 50px;
+}
+.owl-next{
+    position: absolute;
+    bottom: -10%;
+    right: 2%;
+}
+.owl-next span{
+    display: block;
+    font-size: 50px;
+}
+.owl-theme .owl-dots{
+    display: none;
+}
+.list-group-item:last-child{
+    width: 60%;
+}
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled   {
+    display: block;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    color: white;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
 }
 
 @media only screen and (max-width: 1200px) {
