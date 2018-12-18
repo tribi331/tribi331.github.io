@@ -21,3 +21,6 @@
     object-fit: cover;
     object-position: center;
 }
+.mobile{
+    display: none;
+}
