@@ -53,7 +53,11 @@
 .owl-theme .owl-nav [class*=owl-]:hover{
     background: transparent;
 }
-
+@media only screen and (max-width: 320px){
+    .list-group-item:last-child{
+        margin-left: 20%;
+    }
+}
 @media only screen and (max-width: 1200px) {
     .search .form-control{
         position: relative;
@@ -66,6 +70,7 @@
     }
     
 } 
+
 @media only screen and (max-width: 1400px){
     .search .form-control{
         position: relative;
