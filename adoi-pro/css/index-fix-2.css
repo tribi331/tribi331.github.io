@@ -17,7 +17,7 @@
     margin-bottom: 0;
 }
 .card-img-top{
-    height: 290px;
+    max-height: 290px;
     object-fit: cover;
     object-position: center;
 }
