@@ -7,7 +7,8 @@
     }
     .hotline-mobile span a{
         font-size: 20px;
-        margin-left: 62%;
+        margin-left: 54%;
+        padding-left: 5px;
         white-space: nowrap;
     }
     .navbar-brand img{
@@ -15,13 +16,13 @@
     }
 }
 
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 474px){
     .hotline-mobile span a {
         color: red;
         font-weight: bold;
         font-size: 20px;
         text-transform: uppercase;
-        margin-left: 55%;
+        margin-left: 47%;
         margin-top: 0%;
     }
     .navbar-toggler-icon{
