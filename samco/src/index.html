@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="libs/slick/css/slick.css">
     <link rel="stylesheet" href="libs/slick/css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-fix.css">
 </head>
 
 <body>
@@ -506,7 +507,7 @@
                         <div class="row">
                             <div class="col-md-3 p-0">
                                 <div class="box">
-                                    <img src="images/images/img_01.png" class="img-fluid" alt="item_01.png">
+                                    <img src="images/layoutHome_3.png" class="img-fluid" alt="item_01.png">
                                     <div class="text-item">
                                         <h1>hệ thống bán hàng</h1>
                                         <button class="btn btn-detail">Xem chi tiết</button>
@@ -550,6 +551,45 @@
                     <div class="title text-center">
                         <h1 class="txt-title">tin tức hoạt động</h1>
                         <div class="title-line"></div>
+                    </div>
+                    <div class="news-mobile">
+                        <div class="p">
+                            <div class="owl-carousel owl-theme tri">
+                                <div class="item">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                            data-toggle="list" href="#list-home" role="tab" aria-controls="home">tin samco bus</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                            data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">tin thị trường</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                            data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">tin khuyến mãi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nd">
+                            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <a href="#"><img src="images/images/img_08.png" alt="" ></a>
+                            </div>
+                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                <a href="#"><img src="images/images/img_09.png" alt="" ></a>
+                            </div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                <a href="#"><img src="images/images/img_07.png" alt="" ></a>
+                            </div>
+                            <div class="btn-click">
+                                <button class="btn btn-detail">Xem Them</button>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="news-content pt-4">
                         <ul class="nav nav-tabs d-flex justify-content-center text-capitalize" role="tablist">
@@ -999,7 +1039,17 @@
         <script src="js/popper.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="libs/slick/js/slick.min.js"></script>
+
         <script src="js/main.js"></script>
+        <script src="js/test.js"></script>
+        <script>
+            $(".list-group-item").click(function () {
+
+                if (!$(this).hasClass("active")) {
+                    $('.list-group-item').removeClass('active');
+                }
+            });
+        </script>
         <!-- end import file js -->
 </body>
 

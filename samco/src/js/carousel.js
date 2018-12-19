@@ -9,7 +9,10 @@ $(document).ready(function() {
     afterAction            : syncPosition,
     responsiveRefreshRate  : 200,
     navigation             : true,
-    navigationText        : ["",""]
+    navigationText        : ["",""],
+    mouseDrag              : false,
+    pullDrag                : false,
+    touchDrag               : false,
   });
 
   secondary.owlCarousel({

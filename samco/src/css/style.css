@@ -819,6 +819,9 @@ header .menu nav ul li.nav-item .sub-menu .sub-menu-content .all-content .navbar
   background-color: #d71920;
   transform: translateX(-50%);
 }
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+  display: none;
+}
 .content .sub-title p {
   font-size: 14px;
   font-family: 'UTM Neo Sans Intel';
@@ -1236,6 +1239,15 @@ footer .showroom span {
   header .logo {
     padding-top: 0 !important;
   }
+  .box:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
   header .logo img {
     transform: scale(0.5);
   }
@@ -1405,6 +1417,7 @@ footer .showroom span {
   .content .products .products-content .nav-item {
     text-align: center;
     border-color: #e9ecef;
+    width: 50%;
   }
   .content .products .products-content .nav-item a {
     width: 100%;
@@ -1444,9 +1457,10 @@ footer .showroom span {
     transition: all 0.4s;
     background-size: cover;
     margin-bottom: 5px;
+    height: 224px;
   }
   .content .service .service-item .box img {
-    width: 40%;
+    width: 100%;
     float: left;
     transition: 0.5s;
     position: relative;
@@ -1458,6 +1472,8 @@ footer .showroom span {
     content: '';
     width: 100%;
     padding-top: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transition: all 0.5s linear;
   }
   .content .service .service-item .box::before {
     display: none;
@@ -1479,27 +1495,30 @@ footer .showroom span {
   }
   .content .service .service-item .box .text-item {
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 50%;
     float: left;
-    width: 60%;
+    width: 100%;
     transform: translate(-50%, -80%);
     text-align: center;
     z-index: 5;
     padding: 0 5px;
   }
   .content .service .service-item .box .text-item h1 {
-    font-size: 12px;
+    font-size: 24px;
     font-family: 'UTM Copperplate';
     text-transform: uppercase;
     white-space: nowrap;
-    color: #535353;
+    color: white;
+    
   }
   .content .service .service-item .box .text-item .btn-detail {
-    display: none;
+    display: block;
+    margin-left: 40%;
   }
   .content .news .news-content {
-    padding: 45px 0;
+    /* padding: 45px 0; */
+    display: none;
   }
   .content .news .news-content .nav-tabs {
     border-bottom: none;
@@ -1579,7 +1598,8 @@ footer .showroom span {
   }
   .content .partner {
     width: 100%;
-    height: 300px;
+    margin-top: 20px;
+    height: 183px;
     background-image: url("../images/images/bg_footer.jpg");
     background-position: center center;
     background-size: cover;
@@ -1590,7 +1610,8 @@ footer .showroom span {
     width: 80%;
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 60%;
+    left: 10%;
     transform: translateY(-50%);
   }
   .content .partner .owl-carousel .owl-dots {
