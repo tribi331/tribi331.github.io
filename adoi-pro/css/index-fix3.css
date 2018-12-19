@@ -29,7 +29,7 @@
         font-weight: bold;
         font-size: 21px;
         text-transform: uppercase;
-        margin-left: 58%;}
+        margin-left: 56%;}
 }
 @media only screen and (max-width: 533px){
     .hotline-mobile span a {
@@ -48,7 +48,7 @@
     }
     .hotline-mobile span a{
         font-size: 20px;
-        margin-left: 54%;
+        margin-left: 50%;
         padding-left: 5px;
         white-space: nowrap;
     }
@@ -78,7 +78,7 @@
     .hotline-mobile span a {
         color: red;
         font-weight: bold;
-        font-size: 19px;
+        font-size: 18px;
         text-transform: uppercase;
         margin-left: 47%;
         margin-top: 0%;
@@ -97,7 +97,7 @@
     .hotline-mobile span a {
         color: red;
         font-weight: bold;
-        font-size: 19px;
+        font-size: 18px;
         text-transform: uppercase;
         margin-left: 39%;
         margin-top: 0%;
@@ -114,7 +114,7 @@
     .hotline-mobile span a {
         color: red;
         font-weight: bold;
-        font-size: 17px;
+        font-size: 16px;
         text-transform: uppercase;
         margin-left: 39%;
         margin-top: 0%;
