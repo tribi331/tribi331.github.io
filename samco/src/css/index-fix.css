@@ -50,7 +50,17 @@
     /* width: 100%; */
     padding: 8px 35px;
 }
-
+.owl-prev{
+    outline: none !important;
+    background: transparent;
+}
+.owl-next{
+    outline: none !important;
+}
+button .owl-next:active{
+    outline: none;
+    background: transparent;
+}
 @media only screen and (max-width: 769px) {
     .list-group{
         width: 50%;
@@ -80,11 +90,32 @@
     .nd img{
         width: 100%;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     .btn-click {
         position: absolute;
         top: 92%;
         left: 38%;
+    }
+    .owl-next{
+        float: right;
+        outline: none;
+        position: absolute;
+        z-index: 999;
+        left: 80%;
+        margin-top: -35px;
+        background:transparent;
+        border:none;
+    }
+    .owl-prev{
+        float: left;
+        outline: none;
+        background:transparent;
+        border:none;
+        position: absolute;
+        z-index: 999;
+        left: 15%;
+        margin-top: -35px;
     }
 }
 @media only screen and (max-width: 600px){
@@ -96,12 +127,52 @@
     .content .service .service-item .box .text-item .btn-detail{
         margin-left: 37%;
     }
+    .owl-next{
+        float: right;
+        outline: none;
+        position: absolute;
+        z-index: 999;
+        left: 80%;
+        margin-top: -35px;
+        background:transparent;
+        border:none;
+    }
+    .owl-prev{
+        float: left;
+        outline: none;
+        background:transparent;
+        border:none;
+        position: absolute;
+        z-index: 999;
+        left: 15%;
+        margin-top: -35px;
+    }
 }
 @media only screen and (max-width: 475px){
     .btn-click {
         position: absolute;
         top: 88%;
         left: 30%;
+    }
+    .owl-next{
+        float: right;
+        outline: none;
+        position: absolute;
+        z-index: 999;
+        left: 80%;
+        margin-top: -35px;
+        background:transparent;
+        border:none;
+    }
+    .owl-prev{
+        float: left;
+        outline: none;
+        background:transparent;
+        border:none;
+        position: absolute;
+        z-index: 999;
+        left: 15%;
+        margin-top: -35px;
     }
 }
 @media only screen and (max-width: 320px){
@@ -112,5 +183,25 @@
     }
     .content .service .service-item .box .text-item .btn-detail{
         margin-left: 28%;
+    }
+    .owl-next{
+        float: right;
+        outline: none;
+        position: absolute;
+        z-index: 999;
+        left: 80%;
+        margin-top: -35px;
+        background:transparent;
+        border:none;
+    }
+    .owl-prev{
+        float: left;
+        outline: none;
+        background:transparent;
+        border:none;
+        position: absolute;
+        z-index: 999;
+        left: 15%;
+        margin-top: -35px;
     }
 }

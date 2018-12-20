@@ -16,16 +16,49 @@
 }
 .content .title .txt-title {
     font-size: 30px;
+    font-family: 'UTM Copperplate';
+    text-transform: uppercase;
 }
 .input-title {
     font-size: 14px;
-    padding: 20px ;
+    padding: 20px 0px;
+}
+.text-sub p{
+    font-size: 14px;
+    font-family: 'UTM Neo Sans Intel';
+    margin-top: -18px;
+}
+.content .title-line{
+    margin-top: 20px;
 }
 .location {
     height: 500px;
     overflow: scroll;
     /* background-color: white; */
     overflow-x: hidden;
+    
+}
+.map-fix {
+    width: 100%;
+    height: 549px;
+}
+::-webkit-scrollbar {
+    height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+  width: 4px; 
+    border: 1px solid #d5d5d5;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+}
+.btn-detail{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .input-content {
     width: 100%;
@@ -81,7 +114,7 @@
     border: none;
 }
 .nav {
-    margin-top: -20px;
+    margin-top: -10px;
 }
 .discription-one {
     font-size: 16px;
@@ -92,12 +125,30 @@
 .discription-two {
     margin-left: 30px;
     line-height: 0;
+    position: relative;
+    margin-bottom: 15px;
+}
+.discription-two::before{
+    position: absolute;
+    content: '';
+    width: 140%;
+    height: 1px;
+    background: #b0b0b0;
+    top: 100%;
 }
 .discription-two p {
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'UTM Neo Sans Intel';
 }
 .discription-one p {
     padding-right: 10px;
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 16px;
+}
+a{
+    font-family: 'UTM Neo Sans Intel';
+    font-style: italic;
+    color: #d71920;
 }
 .square {
     color: #d71920;
@@ -108,10 +159,17 @@
 }
 .p-discription {
     padding-left: 30px;
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 16px;
+}
+label {
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 14px;
 }
 .title-header-content h1 {
     margin-top: -10px;
     font-size: 18px;
+    font-family: 'UTM Avo';
     font-weight: bold;
 }
 @media only screen and (max-width: 1200px) {
@@ -133,6 +191,8 @@
     }
     .text-center p {
         text-align:justify;
+        font-family: 'UTM Neo Sans Intel';
+        font-size: 14px;
     }
     .title-header-content::after {
         top: 68%;
@@ -177,6 +237,8 @@
     }
     .title-header-content h1 {
         margin-left: -25px;
+        font-family: 'UTM Avo';
+        font-size: 18px;
     }
     .text-center {
         margin-top: 15px;
@@ -193,6 +255,9 @@
     .map-contact iframe {
         width: 100%;
         height: 350px;
+    }
+    .discription-two::before{
+        width:120%;
     }
     .location {
         margin-bottom: 20px;
@@ -231,6 +296,9 @@
     .map-contact {
         width: 100%;
     }
+    .discription-two::before{
+        width: 110%;
+    }
     .map-contact iframe {
         width: 100%;
         height: 400px;
@@ -246,6 +314,9 @@
 @media only screen and (max-width: 475px) {
     .map-contact {
         width: 100%;
+    }
+    .discription-two::before{
+        width: 110%;
     }
     .text-center {
         margin-top: 15px;
@@ -264,6 +335,8 @@
     }
     .discription-one p {
         font-size: 13px;
+        
+        font-family: 16px;
     }
     .discription-two p {
         font-size: 13px;
@@ -271,6 +344,7 @@
     }
     .discription-one {
         padding-top: 3px;
+        font-family: 'UTM Neo Sans Intel';
     }
     .location {
         margin-bottom: 20px;
@@ -281,7 +355,7 @@
     }
     .discription-two {
         line-height: 1.2;
-        margin-left: 15px;
+        margin-left: 0;
     }
     .information {
         margin-bottom: 20px;
@@ -315,6 +389,9 @@
     }
     .content .title .txt-title {
         font-size: 20px;
+    }
+    .discription-two::before{
+        width: 95%;
     }
     .text-center p {
         text-align: justify;
