@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Bài 1: Tính tổng S(n)=1+2+3+...+n</h1>
+        nhap n: <input type="text" id="nhapso">
+        <button onclick="tong_S()">ket qua</button>
+        <div id="ketqua"></div>
+    </div>
+    <script>
+        function tong_S(){
+            // var nhapn=document.getElementById("nhapso").value lay element cua id input de nhap so
+            var nhapn=document.getElementById("nhapso").value;
+            // khai bao bien n la kieu du lieu interger
+            var n=parseInt(nhapn);
+            var tong=0;
+            for(var i=0;i<=n;i++){
+               tong=tong+i;
+            }
+            document.getElementById("ketqua").innerHTML="ket qua: " + tong;
+        }
+        tong_S();
+    </script>
+</body>
+
+</html>

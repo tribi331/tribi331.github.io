@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <h1>nhap so</h1>
+            <input type="text" name="number" id="number" value="0">
+            <input type="button" value="in ket qua" onclick="print_snt()">
+        </form>
+        <div class="resaut"></div>
+    </div>
+
+    <script>
+        // ham kt snt
+        function kiem_tran_snt(n){
+            // dat bien co hieu flag
+            var flag=true;
+            // neu n < 2 thi chan chan khong phai so nguyen to
+            if(n < 2){
+                flag=false;
+            }
+            else if(n==2){
+                flag=true;
+            }
+            else if(n%2 == 0){
+                flag=false;
+            }
+            else {
+                // lap tu 3- n-1 voi buoc nhay la 2 (i+=2)
+                for(var i=3;i< Math.sqrt(n);i+=2){
+                    if(n%i==0){
+                        flag=false;
+                        break;
+                    }
+                }
+            }
+            return flag;
+        }
+        // ham in cac so nguyen to tu 1-n
+        function print_snt(){
+            // khai bao bien number
+            var number=document.getElementById("number").value;
+            // ep kieu cho number thanh INT (thanh so)
+            number=parseInt(number);
+            // vong lap in ket qua
+            var html=" ";
+            for(var i=1;i<=number;i++){
+                // neu la so nguyen to thi in ra
+                if(kiem_tran_snt(i)){
+                    html += i;
+                }
+            }
+            document.getElementById("resaut").innerHTML=html;
+        }
+    </script>
+</body>
+
+</html>

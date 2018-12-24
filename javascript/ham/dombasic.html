@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .newcss {
+        background: red;
+    }
+</style>
+<body>
+    <!-- <div id="div1">
+        <b>day la </b> div 1
+        <p id="p1">
+            day la ben trong the p1
+        </p>
+        <p id="p2" class="para">
+            day la ben trong the p2
+        </p>
+    </div> -->
+    nhap vao a 
+    <input type="text" id="txta" ><br>
+    nhap vao b
+    <input type="text" id="textb" ><br>
+    nhap vao c
+    <input type="text" id="textc" ><br>
+    <div onclick="batdautinh()" style="width:80px;padding:5px;background-color:red;color:white;cursor: pointer;">bat dau</div>
+    <script>
+        // dung bien obj de lay doi tuong thao tac
+        // var obj=document.getElementById("div1");
+        // lay noi dung cua obj
+        // var content=obj.innerHTML;
+        // alert(content);
+        // obj.innerHTML="noi dung moi";
+        // obj.setAttribute("class","newcss");
+        // obj.style.backgroundColor="blue";
+        function batdautinh(){
+            var a=parseInt(document.getElementById("txta").value);
+            // sub: var obja=document.getElementById("txta");
+            //     var astr=obja.value;
+            //     var a=parseInt(astr);
+            var b=parseInt(document.getElementById("txtb").value);
+            // sub: var objb=document.getElementById("txtb");
+            //     var bstr=objb.value;
+            //     var b=parseInt(bstr);
+            var c=parseInt(document.getElementById("txtc").value);
+            // sub: var objc=document.getElementById("txtc");
+            //     var cstr=objc.value;
+            //     var c=parseInt(cstr);
+            var delta=b*b-4*a*c;
+            var x;
+            if(a==0){
+                
+            }
+        }
+    </script>
+</body>
+
+</html>

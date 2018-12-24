@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Xóa thẻ HTML</h1>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1</td>
+                <td>iphone xs</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>iphone x</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>iphone 8</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>iphone 7</td>
+                <td>
+                    <input type="button" value="Delete"/>
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- dung doan script de xoa tung san pham -->
+        <script>
+            window.onload = function(){
+                // lay danh sach button
+                var button = document.getElementsByTagName("input")
+                // su dung vong lap, lap qua tung button
+                for(var i=0;i<button.length;i++){
+                    // gan su kien click
+                    button[i].addEventListener("click", function(){
+                        // Lấy thẻ tr
+                        var parent = this.parentElement.parentElement;
+                        // và thực hiện xóa
+                        parent.remove();
+                    });
+                }
+            }
+        </script>
+</body>
+</html>

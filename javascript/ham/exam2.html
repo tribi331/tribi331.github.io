@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>tinh tong a va b</h1>
+        nhap a: <input type="text" id="a">
+        nhap b: <input type="text" id="b">
+        <button onclick="tong_ab()">click</button>
+        <div id="resaut">ket qua</div>
+    </div>
+    <script>
+        
+        function tong_ab(){
+            // document.getElementById dung de lay id cua element
+            var nhapa=document.getElementById("a").value;
+            var nhapb=document.getElementById("b").value;
+            // var kq=document.getElementById("resaut").value;
+            var a=parseInt(nhapa);
+            var b=parseInt(nhapb);
+            kq=a+b;
+            // console.log(kq);
+            document.getElementById("resaut").innerHTML=kq;
+        }   
+        tong_ab();
+    </script>
+</body>
+</html>

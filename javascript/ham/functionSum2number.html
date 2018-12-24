@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function ting_tong_2_so(){
+        //     var a=parseInt(prompt("nhap so thu nhat"));
+        //     var b=parseInt(prompt("nhap so thu hai"));
+        //     // tinh tong
+        //     var tong = a+b;
+        //     // in ra ngoai man hinh
+        //     document.write("tong 2 so la: "+tong)
+        // }
+        // ting_tong_2_so();
+
+
+
+
+
+        // tinh tong cac so trong mang
+        // var mang=[1,2,3];
+        // function tong_so_le_mang(){
+        //     // tao bien tong de luu kq
+        //     var tong=0;
+        //     // thuc hien vong lap, neu thay so le thi cong vao
+        //     for(var i=0;i<mang.length;i++){
+        //         if(mang[i]%2 != 0){
+        //             tong += mang[i];
+        //         }
+        //     }
+        //     document.write("tong cac so le trong mang la: "+tong);
+        // }
+        // tong_so_le_mang();
+
+
+
+        // tinh biet thuc
+        function tinh_bieu_thuc() {
+            var tong = 0;
+            var n = parseInt(prompt("nhap so can tinh"))
+            // kiem tra gia tri 
+            if (n <= 0) {
+                alert("ban phai nhap so lon hon 0");
+            }
+            else {
+                // tinh toan
+                for (var i = 1; i <= n; i++) {
+                    tong += (1 / i);
+                }
+            }
+            document.write("Tổng giá trị biểu thức là: " + tong);
+        }
+    tinh_bieu_thuc();
+    </script>
+</body>
+
+</html>

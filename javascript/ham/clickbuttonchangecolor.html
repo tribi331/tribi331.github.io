@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <div>the thu 1</div>
+    <button onclick="change_Background()">change background color</button>
+
+    <script>
+        
+    // (i+1) % 2 == 0 là số chẵn
+    // (i+1) % 2 != 0 là số lẻ
+
+        function change_Background(){
+            var divs=document.getElementsByTagName("div");
+            for(var i=0; i<divs.length;i++){
+                // vi tri chan se la mau do
+                if((i+2)%2 == 0){
+                    divs[i].style.background="red";
+                }
+                else {
+                    // vi tri le mau xanh
+                    divs[i].style.background="blue"
+                }
+            }
+        }
+    </script>
+</body>
+</html>

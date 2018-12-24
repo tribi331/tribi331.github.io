@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>giai pt bac 1 2 an a va b</h1>
+    nhap a: <input type="text" id="a" value="">
+    nhap b: <input type="text" id="b" value="">
+    <button onclick="giai_pt()">click</button>
+    <div id="ketqua"></div>
+
+    <script>
+        function giai_pt(){
+            var a=document.getElementById("a").value;
+            var b=document.getElementById("b").value;
+            var x=document.getElementById("ketqua").value;
+            // var a=parseInt(a);
+            // var b=parseInt(b);
+            var x=0;
+            if(a == "" && b == ""){
+                document.getElementById("ketqua").innerHTML= x;
+            }
+            else if(a == 0 && b == 0){
+                document.getElementById("ketqua").innerHTML="pt vo nghiem";
+            }
+            else if(a != 0 && b == 0){
+                document.getElementById("ketqua").innerHTML="pt vo so nghiem";
+            }
+            else {
+                x=-b/a;
+                // x=parseInt(x);
+                document.getElementById("ketqua").innerText="x = "+x;
+            }
+        }
+        giai_pt();
+    </script>
+</body>
+</html>

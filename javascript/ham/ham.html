@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>// ham kiem tra chan le
+        // khai bao ham
+        // function kt_Chan_le() {
+        //     // khai bao bien
+        //     var so = parseInt(prompt("nhap so can kiem tra"))
+        //     var mod = (so % 2);
+        //     // dk kiem tra chan le
+        //     if (mod == 0) {
+        //         console.log(mod);
+        //         document.write(so + " la so chan")
+        //     }
+        //     else if (mod == 1) {
+        //         console.log(mod);
+        //         document.write(so + " la so le ")
+        //     }
+        //     else {
+        //         document.write("k phai la so");
+        //     }
+        // }
+        // // su dung ham
+        // kt_Chan_le();
+
+
+
+
+        // kiem tra 1 nam co phai la nam nhuan hay k
+        function kt_Nam_Nhuan() {
+            var nam=parseInt(prompt("nhap vao nam ban can"));
+            //neu nam chia het 100
+            // thi kt nam do co chia het co 400 hay k
+            if(nam  % 100 == 0){
+                // kt nam do co chia het co 400 hay k
+                if(nam % 400 == 0){
+                    alert(nam + " la nam nhuan")
+                }
+                else{
+                    alert(nam + " khong phai la nam nhuan")
+                }
+            }
+            else if(nam % 4 == 0){
+                alert(nam + " la nam nhuan");
+            }
+            else {
+                alert(nam+ " khong phai la nam nhuan")
+            }
+        }
+        kt_Nam_Nhuan();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // viet ham giai pt bac 2
+        function giai_pt_bac_nhat(a, b) {
+            // var a=parseInt(a);
+            // var b=parseInt(b);
+            // var x=parseInt(x);
+            if (a == 0 && b == 0) {
+                alert("pt vo so nghiem")
+            }
+            else if (a != 0 && b == 0) {
+                alert("pt co nghiem x=0")
+            }
+            else if (a == 0 && b != 0) {
+                alert("pt vo nghiem")
+            }
+            else {
+                alert('Phương trình có nghiệm x = ' + (-b / a));
+            }
+        }    
+        // goi ham 
+        giai_pt_bac_nhat(2,2)
+    </script>
+</body>
+
+</html>

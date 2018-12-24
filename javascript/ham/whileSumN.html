@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>Lẻ</div>
+    <div>Chẵn</div>
+    <div>Lẻ</div>
+    <div>Chẵn</div>
+    <div>Lẻ</div>
+    <div>Chẵn</div>
+    <div>Lẻ</div>
+    <div>Chẵn</div>
+    <div>Lẻ</div>
+    <div>Chẵn</div>
+    <div>Lẻ</div>
+    <button onclick="deleteElement()">Remove</button>
+    <script>
+        function deleteElement() {
+            // danh sach the div
+            var elements=document.getElementsByTagName("div");
+            // mang chua the can xoa
+            var element_remove = [];
+            var tam=0;
+            while(tam < elements.length){
+                // dieu kien xoa: tam % 2 != 0 && tam != 0
+                if(tam % 2 !=0 && tam !=0){
+                    element_remove.push(elements[tam]);
+                }
+                // bat dau xoa
+                tam = 0;
+                while(tam < element_remove.length){
+                    element_remove[tam].remove();
+                    tam++;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

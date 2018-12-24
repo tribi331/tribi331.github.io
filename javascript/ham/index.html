@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="button" value="click me" id="clickMe">
+    <!-- viet js -->
+    <script>
+        // lay element tu id clickME luu vao bien button
+        var button = document.getElementById('clickMe');
+        // khi click vao element trong button thi no se thuc hien 1 function
+        button.addEventListener('click', function () {
+            alert('hello')
+        })
+    </script>
+
+    <input type="button" onclick="alert('bai 2')" value="Click Me">
+    <!-- <script>
+        var button=document.getElementById('click');
+        button.onclick('click',function() {
+            alert('bai2');
+        })
+    </script> -->
+
+    <!-- example -->
+    <script>
+        // var a = 5;
+        // var b = 6;
+        // console.log(a == b); // False
+        // console.log(a > b); // False
+        // console.log(a >= b); // False
+        // console.log(a < b); // True
+        // console.log(a <= b); // true
+        // console.log(a != b); // True
+    </script>
+
+
+    <!-- <script> 
+    var a=10;
+    var b=14;
+    if(a=b){
+        alert('bieu thuc sai');
+    }
+    </script> -->
+    
+
+    <!-- kiem tra so chan hay le -->
+    <script>
+        // switch case
+        // var so=parseInt (prompt("nhap so can kiem tra"))
+        // var kq=(so % 2)
+        // switch(kq)
+        // {
+        //     case 0: {
+        //         document.write(so + "la so chan")      //document.write la ham in gia tri cua bien
+        //         break;
+        //     }
+        //     case 1:{
+        //         document.write(so + " la so le")
+        //         break;
+        //     }
+        //     default: {
+        //         document.write("ban nhap khong phai so")
+        //         break;
+        //     }
+        // }
+
+        // dung if 
+        var so=parseInt(prompt("nhap so can kiem tra"));
+        var mod=(so % 2);
+        if(mod == 0) {
+            console.log(mod);
+            document.write(so+ " la so chan ")
+        }
+        else if (mod == 1) {
+            console.log(mod)
+            document.write(so+ " la so le ")
+        }
+        else {
+            console.log(mod)
+            document.write("khong phai so")
+        }
+    </script>
+
+</body>
+
+</html>
