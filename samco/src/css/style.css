@@ -1008,7 +1008,9 @@ header .menu nav ul li.nav-item .sub-menu .sub-menu-content .all-content .navbar
   height: 5px;
   background-color: #d71920;
   border-radius: 5px;
+  
 }
+
 .content .news .card span {
   font-size: 12px;
   line-height: 20px;
@@ -1031,7 +1033,7 @@ header .menu nav ul li.nav-item .sub-menu .sub-menu-content .all-content .navbar
   margin: auto;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateX(10%);
 }
 .content .partner .owl-carousel .owl-dots {
   display: none;

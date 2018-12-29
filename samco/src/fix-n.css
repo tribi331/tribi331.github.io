@@ -1,0 +1,9 @@
+.btn-detail:hover{
+    color:white
+}
+@media screen and (max-width: 768px){
+.content .products .products-content .nav-item {
+    text-align: center;
+    border-color: #e9ecef;
+    width: 50%;}
+}
